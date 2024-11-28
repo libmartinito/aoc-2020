@@ -5,3 +5,6 @@
 
 # ignore question input
 input
+
+# ignore test input
+test
