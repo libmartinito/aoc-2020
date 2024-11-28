@@ -1,1 +1,7 @@
+# ignore binary files
+*
+!*.*
+!*/
+
+# ignore question input
 input
