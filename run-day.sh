@@ -7,7 +7,7 @@ fi
 
 DAY="$1"
 
-g++ -std=c++11 -O2 -Wall -pg day-"$DAY".cpp -o day-"$DAY"
+g++ -std=c++11 -O2 -Wall day-"$DAY".cpp -o day-"$DAY"
 
 if [ $? -eq 0 ]; then
   ./day-"$DAY"
